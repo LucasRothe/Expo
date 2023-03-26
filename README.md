@@ -1,8 +1,8 @@
 # Data Exporter 
 
-**Version:** _v3.1_ <br>
+**Version:** _3.1_ <br>
 **Author/s:** _Lucas Rothe_<br>
-**Licence:[^1]** [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) <br>
+**Licence:** [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)[^1] <br>
 
 ## Table of Contents
 - [About](#about)
@@ -17,11 +17,11 @@
 
 ### :dart: About
     
-The purpose of *Data Exporter*/*Expo* is to extract measurement data from predefined data sets in order to simplify the subsequent plotting in graphs. Additionally, there is the possibility to normalize the data.
+The purpose of ***Data Exporter***/***Expo*** is to extract measurement data from predefined data sets in order to simplify the subsequent plotting in graphs. Additionally, there is the possibility to normalize the data.
 
 ### :warning: Requirements
-- OS is Windows 10
-- Downloaded the whole EXPO repository
+- OS is _Windows_
+- Downloaded the whole Expo repository
 - Repository/Directory is saved on "Desktop"
 - Have a fortran compiler installed
   - [MinGW](https://sourceforge.net/projects/mingw/) is recommended 
