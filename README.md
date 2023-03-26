@@ -7,9 +7,9 @@
 
     ***< ! > License changes are reserved to Lucas Rothe < ! >***
 
-## Table of Contents {#toc}
+## Table of Contents
 - [About](#about)
-- [Requirements](#requirements-req)
+- [Requirements](#requirements)
 - [Installation](#installation-install)
   - [MinGW Compiler](#mingw-compiler-mingw)
   - [Compiling Expo.f90](#compiling-expof90-compi)
@@ -18,7 +18,7 @@
 - [Troubleshooting](#troubleshooting-trshoot)
 
 
-### About {#about}
+### About
     The purpose of *Data Exporter*/*Expo* is to extract measurement data from 
     predefined data sets in order to simplify the subsequent plotting in graphs. 
     Additionally, there is the possibility to normalize the data.
