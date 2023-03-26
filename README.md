@@ -1,7 +1,9 @@
 # Data Exporter 
 
 Version: _v3.1_
+
 Author/s: _Lucas Rothe_
+
 Licence: [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) ***<!> License changes are reserved to Lucas Rothe <!>***
 
 ## Table of Contents
@@ -15,7 +17,7 @@ Licence: [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalco
 - [Troubleshooting](#troubleshooting)
 
 
-### About :dart:
+### :dart: About
     The purpose of *Data Exporter*/*Expo* is to extract measurement data from 
     predefined data sets in order to simplify the subsequent plotting in graphs. 
     Additionally, there is the possibility to normalize the data.
