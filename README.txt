@@ -7,14 +7,14 @@
     < ! > License changes are reserved to Lucas Rothe < ! >
 
 # toc
- > About
- > Requirements
- > Installation
-    ├--MinGW Compiler
-    ├--Compiling Expo.f90
-    └--Updating
- > Usage
- > Troubleshooting
+ ├-> About
+ ├-> Requirements
+ ├-> Installation
+ |   ├--MinGW Compiler
+ |   ├--Compiling Expo.f90
+ |   └--Updating
+ ├-> Usage
+ └-> Troubleshooting
 
 ## About
     The purpose of *Data Exporter*/*Expo* is to extract measurement data from 
@@ -105,7 +105,7 @@
  + Q: Expo does not read my input file!
    A: Make sure that your file fit the file extension requirements.
 
- + Q: While extracting my data the program crashed and were closed.
+ + Q: While extracting my data the program crashed and was closed.
    A: Your data set probably contains a value which does not correspond to the read-in format.
       Often this value is slightly longer than the majority of the values. If it is possible, the
       format should be adjusted.
