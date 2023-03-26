@@ -2,8 +2,7 @@
 
 **Version:** _v3.1_ <br>
 **Author/s:** _Lucas Rothe_<br>
-**Licence:** [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) <br>
-***<!> License changes are reserved to Lucas Rothe <!>***
+**Licence:[^1]** [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) <br>
 
 ## Table of Contents
 - [About](#about)
@@ -28,8 +27,8 @@
  ○ Have a fortran compiler installed
     └-> MinGW is recommended (https://sourceforge.net/projects/mingw/)
 
-### Installation
- < ! > Only for Windows OS < ! >
+### :cd: Installation
+ :bangbang: **Only for Windows OS** :bangbang:
  
  #### MinGW Compiler
     1.a. Start mingw-get-setup
@@ -76,7 +75,7 @@
         └-> If not visible you are not in the correct directory!
     7. When "Expo.f90" is visible, type "gfortran Expo.f90 -o Expo.exe"
 
-### Usage
+### :notebook: Usage
     The data set must be stored in the "In" folder and must have the following file extensions in order to extract measurement data.
     File extension requirements:
      ├-> for GPC: .txt
@@ -98,7 +97,7 @@
     |                          └-> [UV]                      |
     └--------------------------------------------------------┘
 
-### Troubleshooting
+### :anger: Troubleshooting
  + Q: I compiled Expo.f90 but the program does not run!
    A: Please restart your computer and try again. If this does not change anything, recompile Expo.f90.
 
@@ -110,7 +109,8 @@
       Often this value is slightly longer than the majority of the values. If it is possible, the
       format should be adjusted.
 
-### Maintainer/s
+### :shipit: Maintainer/s
 - Lucas Rothe (https://github.com/LucasRothe)
 
 -----------------------
+[^1]:***<!> License changes are reserved to Lucas Rothe <!>***
