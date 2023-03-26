@@ -1,10 +1,9 @@
 # Data Exporter 
 
-Version: _v3.1_
-
-Author/s: _Lucas Rothe_
-
-Licence: [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) ***<!> License changes are reserved to Lucas Rothe <!>***
+**Version:** _v3.1_ <br>
+**Author/s:** _Lucas Rothe_<br>
+**Licence:** [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) <br>
+***<!> License changes are reserved to Lucas Rothe <!>***
 
 ## Table of Contents
 - [About](#about)
@@ -22,7 +21,7 @@ Licence: [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalco
     predefined data sets in order to simplify the subsequent plotting in graphs. 
     Additionally, there is the possibility to normalize the data.
 
-### Requirements
+### :warning: Requirements
  ○ OS is Windows 10
  ○ Downloaded the whole EXPO repository
  ○ Repository/Directory is saved on "Desktop"
