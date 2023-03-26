@@ -24,7 +24,7 @@ The purpose of *Data Exporter*/*Expo* is to extract measurement data from predef
 - Downloaded the whole EXPO repository
 - Repository/Directory is saved on "Desktop"
 - Have a fortran compiler installed
-  - └> [MinGW](https://sourceforge.net/projects/mingw/) is recommended 
+  - [MinGW](https://sourceforge.net/projects/mingw/) is recommended 
 
 ### :cd: Installation
  :bangbang: **Only for Windows OS** :bangbang:
