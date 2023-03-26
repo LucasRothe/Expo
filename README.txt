@@ -11,20 +11,21 @@
  > Requirements
  > Installation
     ├--MinGW Compiler
-    └--Compiling Expo.f90
+    ├--Compiling Expo.f90
+    └--Updating
  > Usage
  > Troubleshooting
 
 ## About
     The purpose of *Data Exporter*/*Expo* is to extract measurement data from 
-    defined data sets in order to simplify the subsequent plotting in graphs. 
+    predefined data sets in order to simplify the subsequent plotting in graphs. 
     Additionally, there is the possibility to normalize the data.
 
 ## Requirements
- [] OS is Windows 10
- [] Downloaded the whole EXPO repository
- [] Repository/Directory is saved on "Desktop"
- [] Have a fortran compiler installed
+ ○ OS is Windows 10
+ ○ Downloaded the whole EXPO repository
+ ○ Repository/Directory is saved on "Desktop"
+ ○ Have a fortran compiler installed
     └-> MinGW is recommended (https://sourceforge.net/projects/mingw/)
 
 ## Installation
@@ -61,6 +62,19 @@
     4. When "Expo.f90" is visible, type "gfortran Expo.f90 -o Expo.exe"
     5. Start Expo.exe by typing "./Expo.exe"
         └-> Expo.exe can also be started by double click in your directory.
+
+ ### Updating
+    1. Download the latest version from GitHub
+    2. Copy the latest "Expo.f90"
+    3. Go to your current Expo-Directory and replace "Expo.f90"
+    4. Use Windows Search (magnifying glass icon) and type "cmd"
+        └-> OR: Hold button [Win]+[R] and in upcoming window type "cmd"
+    5. Navigate to Expo-Directory by typing "cd Desktop\Expo"
+        └-> If you have saved the repository at a other location, make sure to replace "Desktop\Expo" with your pathway.
+            You can copy the pathway out of the headline of your file explorer.
+    6. Type "dir" and make sure that you see the file "Expo.f90"
+        └-> If not visible you are not in the correct directory!
+    7. When "Expo.f90" is visible, type "gfortran Expo.f90 -o Expo.exe"
 
 ## Usage
     The data set must be stored in the "In" folder and must have the following file extensions in order to extract measurement data.
