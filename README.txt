@@ -1,0 +1,92 @@
+---> Data Exporter <---
+
+- Version: v3.1
+- Author/s:
+    + Lucas Rothe
+- Licence: CC BY-NC-SA (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+    < ! > License changes are reserved to Lucas Rothe < ! >
+
+# toc
+ > About
+ > Requirements
+ > Installation
+    |--MinGW Compiler
+    |--Compiling Expo.f90
+ > Usage
+ > Troubleshooting
+
+## About
+    The purpose of *Data Exporter*/*Expo* is to extract measurement data from 
+    defined data sets in order to simplify the subsequent plotting in graphs. 
+    Additionally, there is the possibility to normalize the data.
+
+## Requirements
+ [] OS is Windows 10
+ [] Downloaded the whole EXPO repository
+ [] Repository/Directory is saved on "Desktop"
+ [] Have a fortran compiler installed
+    |-> MinGW is recommended (https://sourceforge.net/projects/mingw/)
+
+## Installation
+ < ! > Only for Windows OS < ! >
+ 
+ ### MinGW Compiler
+    1.a. Start mingw-get-setup
+      b. Push "Install"
+      c. Check box for "User Interface" if not checked
+      d. Push "Continue"
+      e. Push "Run Now"
+    2.a. Click on "Basic Setup"
+      b. Check box for "mingw32-gcc-fortran-bin"
+      c. [TOPBAR] Go to "Installation" -> click on "Update Catalogue"
+      d. Close MinGW-Installer
+    3.a. Use Windows Search (magnifying glass icon) and type:
+            [EN]: "System Environment Variables"
+            [DE]: "Systemumgebungsvariablen"  
+      b. Within the new window push: 
+            [EN]: "System Environment Variables"
+            [DE]: "Systemumgebungsvariablen"
+      c. Within the new window double click on "Path" 
+      d. Double click on empty column and add "C:\MinGW\bin"
+      e. Leave all windwos with a push on "OK"      
+
+ ### Compiling Expo.f90
+    1. Use Windows Search (magnifying glass icon) and type "cmd"
+        |-> OR: Hold button [Win]+[R] and in upcoming window type "cmd"
+    2. Navigate to Expo-Directory by typing "cd Desktop\Expo"
+        |-> If you have saved the repository at a other location, make sure to replace "Desktop\Expo" with your pathway.
+            You can copy the pathway out of the headline of your file explorer.
+    3. Type "dir" and make sure that you see the file "Expo.f90"
+        |-> If not visible you are not in the correct directory!
+    4. When "Expo.f90" is visible, type "gfortran Expo.f90 -o Expo.exe"
+    5. Start Expo.exe by typing "./Expo.exe"
+        |-> Expo.exe can also be started by double click in your directory.
+
+## Usage
+    The data set must be stored in the "In" folder and must have the following file extensions in order to extract measurement data.
+    File extension requirements:
+     |-> for GPC: .txt
+     |-> for Fluorescence: .sp
+     |-> for UV/Vis: .dsp
+
+    Navigation within the program is done by entering the numbers in square brackets.
+    The main menu also shows which options are active.
+
+    The extracted data set is then located in the folder of the respective measurement method. 
+
+## Troubleshooting
+ + Q: I compiled Expo.f90 but the program does not run!
+   A: Please restart your computer and try again. If this does not change anything, recompile Expo.f90.
+
+ + Q: Expo does not read my input file!
+   A: Make sure that your file fit the file extension requirements.
+
+ + Q: While extracting my data the program crashed and were closed.
+   A: Your data set probably contains a value which does not correspond to the read-in format.
+      Often this value is slightly longer than the majority of the values. If it is possible, the
+      format should be adjusted.
+
+## Maintainer/s
+- Lucas Rothe (https://github.com/LucasRothe)
+
+-----------------------
