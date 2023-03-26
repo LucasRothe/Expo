@@ -72,7 +72,17 @@
     Navigation within the program is done by entering the numbers in square brackets.
     The main menu also shows which options are active.
 
-    The extracted data set is then located in the folder of the respective measurement method. 
+    The extracted data set is then located in the folder of the respective measurement method.
+    
+    ┌-------------------< Workflow Chart >-------------------┐
+    |                                                        |
+    |   Input File (.txt/.dsp/.sp)                           |
+    |   |                                                    |
+    |   └->[IN] --> {Expo} --> Output file (.txt/.dat/.xls)  |
+    |                          ├-> [GPC]                     |
+    |                          ├-> [Fluoreszenz]             |
+    |                          └-> [UV]                      |
+    └--------------------------------------------------------┘
 
 ## Troubleshooting
  + Q: I compiled Expo.f90 but the program does not run!
