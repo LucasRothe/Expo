@@ -97,6 +97,11 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
     └--------------------------------------------------------┘
 
 ### :anger: Troubleshooting
+  <details>
+    <summary>I compiled Expo.f90 but the program does not run!</summary>
+    Please restart your computer and try again. If this does not change anything, recompile Expo.f90.
+  </details>
+ 
  + Q: I compiled Expo.f90 but the program does not run!
    A: Please restart your computer and try again. If this does not change anything, recompile Expo.f90.
 
@@ -112,4 +117,4 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
 - Lucas Rothe (https://github.com/LucasRothe)
 
 -----------------------
-[^1]:***<!> License changes are reserved to Lucas Rothe <!>***
+[^1]:***License changes are reserved to Lucas Rothe***
