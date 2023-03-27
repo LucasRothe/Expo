@@ -95,16 +95,6 @@ graph LR;
     C-->F[Fluoreszenz];
 ```
 
-    ┌-------------------< Workflow Chart >-------------------┐
-    |                                                        |
-    |   Input File (.txt/.dsp/.sp)                           |
-    |   |                                                    |
-    |   └->[IN] --> {Expo} --> Output file (.txt/.dat/.xls)  |
-    |                          ├-> [GPC]                     |
-    |                          ├-> [Fluoreszenz]             |
-    |                          └-> [UV]                      |
-    └--------------------------------------------------------┘
-
 ### :anger: Troubleshooting/FAQ
   <details>
     <summary>I compiled Expo.f90 but the program does not run!</summary>
