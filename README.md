@@ -86,10 +86,13 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
 
   The extracted data sets are then located in the folder of the respective measurement method (see workflow chart).
     
-  ```mermaid
-  graph LR;
-   :bookmark_tabs: Input File (.txt/.dsp/.sp)-->:open_file_folder: In;
-  ```
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
     ┌-------------------< Workflow Chart >-------------------┐
     |                                                        |
