@@ -30,54 +30,57 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
  :bangbang: **Only for Windows OS** :bangbang:
  
  #### MinGW Compiler
-1. a. Start mingw-get-setup<br>
-  b. Push "Install"<br>
-  c. Check box for "User Interface" if not checked<br>
-  d. Push "Continue"<br>
-  e. Push "Run Now"<br>
-2. a. Click on "Basic Setup"<br>
-  b. Check box for "mingw32-gcc-fortran-bin"<br>
-  c. [TOPBAR] Go to "Installation" -> click on "Update Catalogue"<br>
+1. a. Start **mingw-get-setup**<br>
+  b. Push _Install_<br>
+  c. Check box for _User Interface_ if not checked<br>
+  d. Push _Continue_<br>
+  e. Push _Run Now_<br>
+2. a. Click on _Basic Setup_<br>
+  b. Check box for _mingw32-gcc-fortran-bin_<br>
+  c. `TOPBAR` Go to _Installation_ -> click on _Update Catalogue_<br>
   d. Close MinGW-Installer<br>
-3. a. Use Windows Search (magnifying glass icon) and type:<br>
-        :gb:: "System Environment Variables"<br>
-        :de:: "Systemumgebungsvariablen"<br>
+3. a. Use Windows Search (:mag_right:-icon) and type:<br>
+        └>:gb:/[EN]: _System Environment Variables_<br>
+        └>:de:/[DE]: _Systemumgebungsvariablen_<br>
   b. Within the new window push:<br> 
-        :gb:: "System Environment Variables"<br>
-        :de:: "Systemumgebungsvariablen"<br>
-  c. Within the new window double click on "Path"<br> 
-  d. Double click on empty column and add "C:\MinGW\bin"<br>
-  e. Leave all windwos with a push on "OK"<br>      
+        └>:gb:/[EN]: _System Environment Variables_<br>
+        └>:de:/[DE]: _Systemumgebungsvariablen_<br>
+  c. Within the new window double click on _Path_<br> 
+  d. Double click on empty column and add _C:\MinGW\bin_<br>
+  e. Leave all windwos with a push on _OK_<br>      
 
  #### Compiling Expo.f90
-  1. Use Windows Search (magnifying glass icon) and type "cmd"<br>
-      └-> OR: Hold button [Win]+[R] and in upcoming window type "cmd"<br>
-  2. Navigate to Expo-Directory by typing "cd Desktop\Expo"<br>
-      └-> If you have saved the repository at a other location, make sure to replace "Desktop\Expo" with your pathway. You can copy the pathway out of the headline of your file explorer.<br>
-  3. Type "dir" and make sure that you see the file "Expo.f90"<br>
-      └-> If not visible you are not in the correct directory!<br>
-  4. When "Expo.f90" is visible, type "gfortran Expo.f90 -o Expo.exe"<br>
-  5. Start Expo.exe by typing "./Expo.exe"<br>
-      └-> Expo.exe can also be started by double click in your directory.<br>
+  1. Use Windows Search (:mag_right:-icon) and type _cmd_<br>
+      └> OR: Hold button [Win]+[R] and in upcoming window type _cmd_<br>
+  2. Navigate to Expo-Directory by typing _cd Desktop\Expo_<br>
+      └> If you have saved the repository at a other location, make sure to replace _Desktop\Expo_ with your pathway. You can copy the pathway out of the headline of your file explorer.<br>
+  3. Type _dir_ and make sure that you see the file _Expo.f90_<br>
+      └> If not visible you are not in the correct directory!<br>
+  4. When _Expo.f90_ is visible, type ***gfortran Expo.f90 -o Expo.ex***e<br>
+  5. Start Expo.exe by typing _./Expo.exe_<br>
+      └> _Expo.exe_ can also be started by double click in your directory.<br>
 
  #### Updating
-  1. Download the latest version from GitHub
-  2. Copy the latest "Expo.f90"
-  3. Go to your current Expo-Directory and replace "Expo.f90"
-  4. Use Windows Search (magnifying glass icon) and type "cmd"
-      └-> OR: Hold button [Win]+[R] and in upcoming window type "cmd"<br>
-  5. Navigate to Expo-Directory by typing "cd Desktop\Expo"<br>
-      └-> If you have saved the repository at a other location, make sure to replace "Desktop\Expo" with your pathway. You can copy the pathway out of the headline of your file explorer.<br>
-  6. Type "dir" and make sure that you see the file "Expo.f90"<br>
-      └-> If not visible you are not in the correct directory!<br>
-  7. When "Expo.f90" is visible, type "gfortran Expo.f90 -o Expo.exe"<br>
+  1. Download the **latest** version from GitHub
+  2. Copy the ***latest Expo.f90***
+  3. Go to your current Expo-Directory and replace _Expo.f90_
+  4. Use Windows Search (magnifying glass icon) and type _cmd_<br>
+      └> OR: Hold button [Win]+[R] and in upcoming window type _cmd_<br>
+  5. Navigate to Expo-Directory by typing ***cd Desktop\Expo***<br>
+      └> If you have saved the repository at a other location, make sure to replace _Desktop\Expo_ with your pathway. You can copy the pathway out of the headline of your file explorer.<br>
+  6. Type _dir_ and make sure that you see the file _Expo.f90_<br>
+      └> If not visible you are not in the correct directory!<br>
+  7. When _Expo.f90_ is visible, type ***gfortran Expo.f90 -o Expo.exe***<br>
 
-### :notebook: Usage
-    The data set must be stored in the "In" folder and must have the following file extensions in order to extract measurement data.
-    File extension requirements:
-     ├-> for GPC: .txt
-     ├-> for Fluorescence: .sp
-     └-> for UV/Vis: .dsp
+### :compass: Usage
+  The data set must be stored in the "In" folder and must have the following file extensions in order to extract measurement data.
+
+  |Mesurement|File type|
+  |----|----|
+  |GPC|.txt|
+  |UV/Vis|.dsp|
+  |Fluorescence|.sp| 
+  
 
     Navigation within the program is done by entering the numbers in square brackets.
     The main menu also shows which options are active.
@@ -94,7 +97,7 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
     |                          └-> [UV]                      |
     └--------------------------------------------------------┘
 
-### :anger: Troubleshooting
+### :anger: Troubleshooting/FAQ
   <details>
     <summary>I compiled Expo.f90 but the program does not run!</summary>
         Please restart your computer and try again. If this does not change anything, recompile Expo.f90.
@@ -111,6 +114,8 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
         Often this value is slightly longer than the majority of the values. If it is possible, the
         format should be adjusted.
   </details>
+
+:speech_balloon: ***Do you have a problem which is not mentioned above, please contact [Maintainer/s](#basecampy-maintainers). Your request will be responded as fast as possible. Please keep in mind that this project is done within the authors'/maintainers' spare time.***
 
 ### :basecampy: Maintainer/s
 - Lucas Rothe (https://github.com/LucasRothe)

@@ -14,7 +14,7 @@
  |   ├--Compiling Expo.f90
  |   └--Updating
  ├-> Usage
- └-> Troubleshooting
+ └-> Troubleshooting/FAQ
 
 ## About
     The purpose of *Data Exporter*/*Expo* is to extract measurement data from 
@@ -109,6 +109,9 @@
    A: Your data set probably contains a value which does not correspond to the read-in format.
       Often this value is slightly longer than the majority of the values. If it is possible, the
       format should be adjusted.
+
+ >> Do you have a problem which is not mentioned above, please contact Maintainer/s. Your request will be responded as fast as possible.
+    Please keep in mind that this project is done within the authors'/maintainers' spare time.
 
 ## Maintainer/s
 - Lucas Rothe (https://github.com/LucasRothe)
