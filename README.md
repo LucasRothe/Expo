@@ -88,8 +88,8 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
     
 ```mermaid
 graph LR;
-    A(Input File (.txt/.dsp/.sp))-->B[IN];
-    B-->|Expo.exe| C{Output File (.txt/.dat/.xls)};
+    A(Input File)-->B[IN];
+    B-->|Expo.exe| C{Output File};
     C-->D[GPC];
     C-->E[UV/Vis];
     C-->F[Fluoreszenz];
