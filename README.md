@@ -77,7 +77,7 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
 
   |Mesurement|File Extension|Structure|
   |----|----|----|
-  |GPC|.txt|PSS WinGPC^R^ UniCHrom|
+  |GPC|.txt|PSS WinGPC UniCHrom|
   |UV/Vis|.dsp|:building_construction:|
   |Fluorescence|.sp|:building_construction:| 
   
@@ -88,7 +88,7 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
     
   ```mermaid
   graph LR;
-   ":bookmark_tabs: Input File (.txt/.dsp/.sp)"-->":open_file_folder: In";
+   :bookmark_tabs: Input File (.txt/.dsp/.sp)-->:open_file_folder: In;
   ```
 
     ┌-------------------< Workflow Chart >-------------------┐
