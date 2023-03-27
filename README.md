@@ -64,7 +64,7 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
   1. Download the **latest** version from GitHub
   2. Copy the ***latest Expo.f90***
   3. Go to your current Expo-Directory and replace _Expo.f90_
-  4. Use Windows Search (magnifying glass icon) and type _cmd_<br>
+  4. Use Windows Search (:mag_right:-icon) and type _cmd_<br>
       └> OR: Hold button [Win]+[R] and in upcoming window type _cmd_<br>
   5. Navigate to Expo-Directory by typing ***cd Desktop\Expo***<br>
       └> If you have saved the repository at a other location, make sure to replace _Desktop\Expo_ with your pathway. You can copy the pathway out of the headline of your file explorer.<br>
