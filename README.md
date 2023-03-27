@@ -105,12 +105,6 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
   <details>
     <summary>Expo does not read my input file!</summary>
         Make sure that your file fit the file extension requirements.
-        
-        |Method|File Type|
-        |:---:|:---:|
-        |GPC|.txt|
-        |UV/Vis|.dsp|
-        |Fluorescence|.sp|
   </details>
 
   <details>
