@@ -88,7 +88,7 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
     
 ```mermaid
 graph LR;
-    'Input File'-->B;
+    A[Input File :bookmark_tabs:]-->B;
     B-->D;
     C-->D;
 ```
