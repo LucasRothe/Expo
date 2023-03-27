@@ -73,20 +73,24 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
   7. When _Expo.f90_ is visible, type ***gfortran Expo.f90 -o Expo.exe***<br>
 
 ### :compass: Usage
-  The data set must be stored in the "In" folder and must have the following file extensions in order to extract measurement data.
+  Only special datasets can be processed by the **Data Exporter** and must fit certain file extensions and structures.
 
-  |Mesurement|File type|
-  |----|----|
-  |GPC|.txt|
-  |UV/Vis|.dsp|
-  |Fluorescence|.sp| 
+  |Mesurement|File Extension|Structure|
+  |----|----|----|
+  |GPC|.txt|PSS WinGPC^R^ UniCHrom|
+  |UV/Vis|.dsp|:building_construction:|
+  |Fluorescence|.sp|:building_construction:| 
   
+  Assuming your data sets meets the requirements, it must be placed in the **In**-:file_folder:. In addition, the ***file name*** can ***not contain any blanks***. 
+  After starting the program you will end up in the main menu, which shows the active options. Navigation within the program window is done by entering the numbers in square brackets. 
 
-    Navigation within the program is done by entering the numbers in square brackets.
-    The main menu also shows which options are active.
-
-    The extracted data set is then located in the folder of the respective measurement method.
+  The extracted data sets are then located in the folder of the respective measurement method (see workflow chart).
     
+  ```mermaid
+  graph LR;
+   ":bookmark_tabs: Input File (.txt/.dsp/.sp)"-->":open_file_folder: In";
+  ```
+
     ┌-------------------< Workflow Chart >-------------------┐
     |                                                        |
     |   Input File (.txt/.dsp/.sp)                           |
@@ -115,7 +119,7 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
         format should be adjusted.
   </details>
 
-:speech_balloon: ***Do you have a problem which is not mentioned above, please contact [Maintainer/s](#basecampy-maintainers). Your request will be responded as fast as possible. Please keep in mind that this project is done within the authors'/maintainers' spare time.***
+>:speech_balloon: ***Do you have a problem which is not mentioned above, please contact [Maintainer/s](#basecampy-maintainers). Your request will be answered as fast as possible. Please keep in mind that this project is done within the authors'/maintainers' spare time.***
 
 ### :basecampy: Maintainer/s
 - Lucas Rothe (https://github.com/LucasRothe)
