@@ -87,7 +87,7 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
   The extracted data sets are then located in the folder of the respective measurement method (see workflow chart).
     
 ```mermaid
-graph TD;
+graph LR;
     A-->B;
     A-->C;
     B-->D;
