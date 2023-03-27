@@ -99,19 +99,26 @@ The purpose of ***Data Exporter***/***Expo*** is to extract measurement data fro
 ### :anger: Troubleshooting
   <details>
     <summary>I compiled Expo.f90 but the program does not run!</summary>
-    Please restart your computer and try again. If this does not change anything, recompile Expo.f90.
+        Please restart your computer and try again. If this does not change anything, recompile Expo.f90.
   </details>
- 
- + Q: I compiled Expo.f90 but the program does not run!
-   A: Please restart your computer and try again. If this does not change anything, recompile Expo.f90.
 
- + Q: Expo does not read my input file!
-   A: Make sure that your file fit the file extension requirements.
+  <details>
+    <summary>Expo does not read my input file!</summary>
+        Make sure that your file fit the file extension requirements.
+        
+        | Method | File Type |
+        | ---- | ---- |
+        | GPC | .txt |
+        | UV/Vis | .dsp |
+        | Fluorescence | .sp |
+  </details>
 
- + Q: While extracting my data the program crashed and was closed.
-   A: Your data set probably contains a value which does not correspond to the read-in format.
-      Often this value is slightly longer than the majority of the values. If it is possible, the
-      format should be adjusted.
+  <details>
+    <summary>While extracting my data the program crashed and was closed.</summary>
+        Your data set probably contains a value which does not correspond to the read-in format.
+        Often this value is slightly longer than the majority of the values. If it is possible, the
+        format should be adjusted.
+  </details>
 
 ### :shipit: Maintainer/s
 - Lucas Rothe (https://github.com/LucasRothe)
